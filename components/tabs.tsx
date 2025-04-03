@@ -53,12 +53,12 @@ export function Tabs() : React.JSX.Element {
                 />
 
                 <Tab.Screen
-                    name="Library"
+                    name="Favorites"
                     component={LibraryStack}
                     options={{
                         headerShown: false,
                         tabBarIcon: ({color, size }) => (
-                            <MaterialCommunityIcons name="book-music-outline" color={color} size={size} />
+                            <MaterialCommunityIcons name="heart" color={color} size={size} />
                         )
                     }}
                 />
